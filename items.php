@@ -33,6 +33,16 @@ sort($categories);
 
     <main class="items-page">
 
+        <section class="featured" aria-label="Objets en vedette">
+            <a href="#" class="featured-tile featured-1">Objet en vedette</a>
+            <a href="#" class="featured-tile featured-2">Objet en vedette</a>
+            <a href="#" class="featured-tile featured-3">Objet en vedette</a>
+            <a href="#" class="featured-tile featured-4">Nouvel item</a>
+            <a href="#" class="featured-tile featured-5">Nouvel item</a>
+            <a href="#" class="featured-tile featured-6">Nouvel item</a>
+            <a href="#" class="featured-tile featured-7">Objet en vedette</a>
+        </section>
+
         <div class="toolbar">
             <input
                 type="search"

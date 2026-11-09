@@ -315,6 +315,13 @@
             "categorie": "melee",
             "description": "Couteau compact conçu pour les affrontements rapprochés. Sa petite taille le rend facile à transporter et à utiliser.",
             "img": "img/weapon/melee/couteau-combat.png"
+        },
+        {
+            "id": 46,
+            "nom": "M16A2",
+            "categorie": "automatique",
+            "description": "Fusil d'assaut automatique polyvalent, conçu pour offrir une bonne précision et une cadence de tir élevée. Il permet d'engager efficacement les adversaires à moyenne et longue distance.",
+            "img": "img/weapon/automatique/m16.png"
         }
     ]
 }

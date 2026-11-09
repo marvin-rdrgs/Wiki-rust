@@ -7,7 +7,7 @@
 :root {
     --color-bg: #333333;
     --color-red: #a01717;
-    --color-text: #959595;
+    --color-text: #CFCFCF;
     --color-white: #ffffff;
     --gap: 5px;
 }
@@ -180,6 +180,76 @@ h1 {
     padding: 10px;
 }
 
+/* ---------- Objets en vedette (au-dessus de la liste) ---------- */
+
+.featured {
+    display: grid;
+    grid-template-columns: 1.9fr 1fr 1fr repeat(3, 1.05fr);
+    grid-template-rows: 3fr 2fr;
+    gap: var(--gap);
+    height: clamp(300px, 32vw, 440px);
+}
+
+.featured-tile {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    border: 1px solid var(--color-white);
+    background-color: var(--color-red);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--color-white);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.featured-tile:hover,
+.featured-tile:focus-visible {
+    transform: scale(1.02);
+}
+
+.featured-tile:focus-visible {
+    outline: 3px solid var(--color-white);
+    outline-offset: 2px;
+}
+
+/* Placement : grand carré, 2 hauts, 3 petits + 1 large */
+.featured-1 { grid-column: 1;     grid-row: 1 / 3; }
+.featured-2 { grid-column: 2;     grid-row: 1 / 3; }
+.featured-3 { grid-column: 3;     grid-row: 1 / 3; }
+.featured-4 { grid-column: 4;     grid-row: 1; }
+.featured-5 { grid-column: 5;     grid-row: 1; }
+.featured-6 { grid-column: 6;     grid-row: 1; }
+.featured-7 { grid-column: 4 / 7; grid-row: 2; }
+
+/* Images à ajouter plus tard, par exemple :
+.featured-1 { background-image: url("../img/weapon/automatique/fusil-assaut.png"); }
+*/
+
+@media (max-width: 700px) {
+    .featured {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: none;
+        grid-auto-rows: 140px;
+        height: auto;
+    }
+
+    .featured-1 { grid-column: 1 / 3; grid-row: auto; min-height: 220px; }
+    .featured-2,
+    .featured-3,
+    .featured-4,
+    .featured-5,
+    .featured-6 { grid-column: auto; grid-row: auto; }
+    .featured-7 { grid-column: 1 / 3; grid-row: auto; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .featured-tile { transition: none; }
+    .featured-tile:hover { transform: none; }
+}
+
 /* ---------- Barre de recherche + filtre ---------- */
 
 .toolbar {
@@ -220,6 +290,14 @@ select.toolbar-field {
 }
 
 /* ---------- Grille d'items ---------- */
+
+.featured-1 { background-image: url("../img/weapon/automatique/fusil-assaut.png"); }
+.featured-2 { background-image: url("../img/weapon/automatique/fusil-assaut.png"); }
+.featured-3 { background-image: url("../img/weapon/automatique/fusil-assaut.png"); }
+.featured-4 { background-image: url("../img/weapon/automatique/m16.png"); }
+.featured-5 { background-image: url("../img/weapon/automatique/fusil-assaut.png"); }
+.featured-6 { background-image: url("../img/weapon/automatique/fusil-assaut.png"); }
+.featured-7 { background-image: url("../img/weapon/automatique/fusil-assaut.png"); }
 
 .items-grid {
     display: grid;
