@@ -1,273 +1,319 @@
+
 {
     "weapon": [
         {
             "id": 1,
             "nom": "Fusil d'assaut",
             "categorie": "automatique",
+            "description": "Fusil d'assaut polyvalent offrant une bonne cadence de tir et une puissance élevée. Il est particulièrement efficace à moyenne et longue distance.",
             "img": "img/weapon/automatique/fusil-assaut.png"
         },
         {
             "id": 2,
             "nom": "Fusil d'assaut LR-300",
             "categorie": "automatique",
+            "description": "Fusil automatique réputé pour sa cadence de tir élevée et son recul relativement maîtrisable. Il convient aux combats rapprochés et à moyenne distance.",
             "img": "img/weapon/automatique/fusil-assaut-LR-300.png"
         },
         {
             "id": 3,
             "nom": "HMLMG",
             "categorie": "automatique",
+            "description": "Mitrailleuse lourde offrant une grande capacité de tir. Elle est conçue pour maintenir une pression importante lors des affrontements.",
             "img": "img/weapon/automatique/hmlmg.png"
         },
         {
             "id": 4,
             "nom": "M249",
             "categorie": "automatique",
+            "description": "Mitrailleuse légère militaire disposant d'un chargeur de grande capacité. Elle permet de tirer en continu et de soutenir efficacement une équipe.",
             "img": "img/weapon/automatique/m249.png"
         },
         {
             "id": 5,
             "nom": "MP5A4",
             "categorie": "automatique",
+            "description": "Pistolet-mitrailleur automatique offrant une bonne précision et une cadence de tir rapide. Il est particulièrement adapté aux combats rapprochés.",
             "img": "img/weapon/automatique/mp5.png"
         },
         {
             "id": 6,
             "nom": "SMG fait maison",
             "categorie": "automatique",
+            "description": "Arme automatique artisanale fabriquée avec des matériaux récupérés. Elle constitue une solution accessible pour les combats à courte distance.",
             "img": "img/weapon/automatique/smgCustome.png"
         },
         {
             "id": 7,
             "nom": "Minigun",
             "categorie": "automatique",
+            "description": "Arme automatique équipée de plusieurs canons rotatifs. Elle possède une cadence de tir extrêmement élevée et une grande capacité de munitions.",
             "img": "img/weapon/automatique/minigun.png"
         },
         {
             "id": 8,
             "nom": "Thompson",
             "categorie": "automatique",
+            "description": "Pistolet-mitrailleur automatique apprécié pour sa simplicité et sa cadence de tir. Il est efficace lors des affrontements à courte et moyenne distance.",
             "img": "img/weapon/automatique/Thompson.png"
         },
         {
             "id": 9,
             "nom": "Fusil à verrou",
             "categorie": "semi-automatique",
+            "description": "Fusil de précision nécessitant un rechargement manuel entre chaque tir. Il offre une bonne puissance et convient aux tirs à longue distance.",
             "img": "img/weapon/semi-automatique/fusil-a-verrou.png"
         },
         {
             "id": 10,
             "nom": "Fusil L96",
             "categorie": "semi-automatique",
+            "description": "Fusil de précision militaire conçu pour les tirs à très longue distance. Il inflige des dégâts importants et dispose d'une excellente portée.",
             "img": "img/weapon/semi-automatique/fusil-L96.png"
         },
         {
             "id": 11,
             "nom": "Fusil M39",
             "categorie": "semi-automatique",
+            "description": "Fusil semi-automatique militaire offrant une bonne précision et une puissance intéressante. Il permet d'enchaîner les tirs sans recharger manuellement après chaque coup.",
             "img": "img/weapon/semi-automatique/fusil-M39.png"
         },
         {
             "id": 12,
             "nom": "Arc de chasse",
             "categorie": "primitive",
+            "description": "Arc traditionnel permettant de tirer des flèches sans utiliser de munitions modernes. Il représente une arme silencieuse adaptée aux débuts de partie.",
             "img": "img/weapon/primitive/arc-chasse.png"
         },
         {
             "id": 13,
             "nom": "Arbalète",
             "categorie": "primitive",
+            "description": "Arme primitive lançant des carreaux avec une bonne précision. Elle permet d'attaquer à distance sans produire beaucoup de bruit.",
             "img": "img/weapon/primitive/arbalete.png"
         },
         {
             "id": 14,
             "nom": "Lance en bois",
             "categorie": "primitive",
+            "description": "Arme rudimentaire fabriquée à partir de bois. Elle peut être utilisée au corps à corps ou lancée pour attaquer un adversaire à distance.",
             "img": "img/weapon/primitive/lance-bois.png"
         },
         {
             "id": 15,
             "nom": "Lance en pierre",
             "categorie": "primitive",
+            "description": "Lance artisanale équipée d'une pointe en pierre. Elle constitue une arme primitive polyvalente pour les premiers affrontements.",
             "img": "img/weapon/primitive/lance-pierre.png"
         },
         {
             "id": 16,
             "nom": "Couteau en os",
             "categorie": "primitive",
+            "description": "Petit outil tranchant fabriqué à partir d'os. Il peut servir d'arme de mêlée et permet également de récolter certaines ressources.",
             "img": "img/weapon/primitive/couteau-os.png"
         },
         {
             "id": 17,
             "nom": "Massue en os",
             "categorie": "primitive",
+            "description": "Arme contondante fabriquée avec des os. Elle permet d'infliger des dégâts au corps à corps et constitue une alternative aux armes métalliques.",
             "img": "img/weapon/primitive/massue-os.png"
         },
         {
             "id": 18,
             "nom": "Pierre",
             "categorie": "primitive",
+            "description": "Pierre basique disponible dès le début de l'aventure. Elle sert principalement à récolter des ressources et peut également être utilisée pour se défendre.",
             "img": "img/weapon/primitive/pierre.png"
         },
         {
             "id": 19,
             "nom": "Torche",
             "categorie": "primitive",
+            "description": "Source de lumière rudimentaire permettant d'éclairer les zones sombres. Elle peut également être utilisée comme arme improvisée.",
             "img": "img/weapon/primitive/torche.png"
         },
         {
             "id": 20,
             "nom": "Arc à poulies",
             "categorie": "primitive",
+            "description": "Arc perfectionné utilisant un système de poulies pour faciliter la tension de la corde. Il permet de tirer des flèches avec une bonne puissance.",
             "img": "img/weapon/primitive/arc-poulies.png"
         },
         {
             "id": 21,
             "nom": "Lampe d'arme",
             "categorie": "accessoire",
+            "description": "Accessoire lumineux pouvant être fixé sur une arme compatible. Il permet d'améliorer la visibilité dans les endroits sombres.",
             "img": "img/weapon/accessoire/lampe-arme.png"
         },
         {
             "id": 22,
             "nom": "Viseur laser",
             "categorie": "accessoire",
+            "description": "Accessoire projetant un faisceau laser pour faciliter la visée. Il permet de mieux visualiser la direction de son arme.",
             "img": "img/weapon/accessoire/viseur-laser.png"
         },
         {
             "id": 23,
             "nom": "Silencieux",
             "categorie": "accessoire",
+            "description": "Accessoire permettant de réduire le bruit des tirs. Il rend les armes moins bruyantes lors des affrontements.",
             "img": "img/weapon/accessoire/silencieux.png"
         },
         {
             "id": 24,
             "nom": "Viseur holographique",
             "categorie": "accessoire",
+            "description": "Viseur moderne affichant un réticule holographique. Il facilite l'acquisition de cible et améliore le confort de visée.",
             "img": "img/weapon/accessoire/viseur-holographique.png"
         },
         {
             "id": 25,
             "nom": "Viseur artisanal",
             "categorie": "accessoire",
+            "description": "Viseur fabriqué de manière artisanale. Il offre un système de visée simple pour améliorer la précision de certaines armes.",
             "img": "img/weapon/accessoire/viseur-artisanal.png"
         },
         {
             "id": 26,
             "nom": "Lunette 8x",
             "categorie": "accessoire",
+            "description": "Lunette de visée offrant un grossissement de huit fois. Elle permet d'observer et de viser des cibles éloignées.",
             "img": "img/weapon/accessoire/lunette-8x.png"
         },
         {
             "id": 27,
             "nom": "Lunette 16x",
             "categorie": "accessoire",
+            "description": "Lunette de précision disposant d'un grossissement de seize fois. Elle est particulièrement adaptée à l'observation et aux tirs à très longue distance.",
             "img": "img/weapon/accessoire/lunette-16x.png"
         },
         {
             "id": 28,
             "nom": "Frein de bouche",
             "categorie": "accessoire",
+            "description": "Accessoire de canon conçu pour réduire le recul de l'arme. Il permet de mieux contrôler les tirs successifs.",
             "img": "img/weapon/accessoire/frein-bouche.png"
         },
         {
             "id": 29,
             "nom": "Accélérateur de bouche",
             "categorie": "accessoire",
+            "description": "Accessoire de canon modifiant le comportement de l'arme lors du tir. Il favorise une cadence de tir plus rapide sur les armes compatibles.",
             "img": "img/weapon/accessoire/accelerateur-bouche.png"
         },
         {
             "id": 30,
             "nom": "Fusil à pompe",
             "categorie": "pompe",
+            "description": "Fusil à pompe classique utilisant des cartouches à chevrotine. Il est particulièrement puissant lors des combats à courte distance.",
             "img": "img/weapon/pompe/fusil-pompe.png"
         },
         {
             "id": 31,
             "nom": "Spas-12",
             "categorie": "pompe",
+            "description": "Fusil à pompe moderne offrant une bonne puissance et une capacité intéressante. Il est redoutable lors des affrontements rapprochés.",
             "img": "img/weapon/pompe/spas-12.png"
         },
         {
             "id": 32,
             "nom": "Double canon",
             "categorie": "pompe",
+            "description": "Fusil à deux canons permettant de tirer deux cartouches rapidement. Il inflige des dégâts importants à très courte distance.",
             "img": "img/weapon/pompe/double-canon.png"
         },
         {
             "id": 33,
             "nom": "Eoka",
             "categorie": "pistolet",
+            "description": "Pistolet artisanal à silex fabriqué avec des matériaux simples. Il représente une arme primitive peu coûteuse mais peu fiable.",
             "img": "img/weapon/pistolet/eoka.png"
         },
         {
             "id": 34,
             "nom": "Pistolet semi-automatique",
             "categorie": "pistolet",
+            "description": "Pistolet léger permettant d'enchaîner plusieurs tirs rapidement. Il constitue une arme secondaire pratique pour les combats rapprochés.",
             "img": "img/weapon/pistolet/pistolet-semi-automatique.png"
         },
         {
             "id": 35,
             "nom": "Revolver",
             "categorie": "pistolet",
+            "description": "Arme de poing classique fonctionnant avec un barillet. Il offre une puissance intéressante et une utilisation relativement simple.",
             "img": "img/weapon/pistolet/revolver.png"
         },
         {
             "id": 36,
             "nom": "Python",
             "categorie": "pistolet",
+            "description": "Revolver puissant disposant d'une excellente puissance par tir. Il est apprécié pour ses dégâts élevés malgré sa capacité limitée.",
             "img": "img/weapon/pistolet/python.png"
         },
         {
             "id": 37,
             "nom": "Pistolet M92",
             "categorie": "pistolet",
+            "description": "Pistolet semi-automatique militaire offrant une bonne cadence de tir. Il dispose d'une capacité de chargeur confortable pour une arme secondaire.",
             "img": "img/weapon/pistolet/m92.png"
         },
         {
             "id": 38,
             "nom": "Lance-roquettes",
             "categorie": "lanceur",
+            "description": "Arme lourde permettant de tirer différents types de roquettes. Elle est principalement utilisée contre les structures et les véhicules.",
             "img": "img/weapon/lanceur/lance-roquettes.png"
         },
         {
             "id": 39,
             "nom": "Lance-grenades multiple",
             "categorie": "lanceur",
+            "description": "Lanceur capable de tirer plusieurs grenades successivement. Il permet de projeter différents types de munitions explosives.",
             "img": "img/weapon/lanceur/lance-grenades.png"
         },
         {
             "id": 40,
             "nom": "Lance-flammes",
             "categorie": "lanceur",
+            "description": "Arme projetant un jet de flammes à courte portée. Elle peut être utilisée contre les adversaires et certaines structures.",
             "img": "img/weapon/lanceur/lance-flammes.png"
         },
         {
             "id": 41,
             "nom": "Hachette",
             "categorie": "melee",
+            "description": "Petite hache polyvalente utilisée pour récolter du bois et combattre au corps à corps. Elle constitue un outil pratique pour la survie.",
             "img": "img/weapon/melee/hachette.png"
         },
         {
             "id": 42,
             "nom": "Hache de pierre",
             "categorie": "melee",
+            "description": "Hache primitive fabriquée avec du bois et de la pierre. Elle permet de récolter des ressources et de se défendre.",
             "img": "img/weapon/melee/hache-pierre.png"
         },
         {
             "id": 43,
             "nom": "Épée longue",
             "categorie": "melee",
+            "description": "Arme de mêlée composée d'une longue lame métallique. Elle permet d'infliger des dégâts importants lors des combats rapprochés.",
             "img": "img/weapon/melee/epee-longue.png"
         },
         {
             "id": 44,
             "nom": "Machette",
             "categorie": "melee",
+            "description": "Lame longue et robuste pouvant servir aussi bien d'outil que d'arme. Elle est efficace pour les affrontements au corps à corps.",
             "img": "img/weapon/melee/machette.png"
         },
         {
             "id": 45,
             "nom": "Couteau de combat",
             "categorie": "melee",
+            "description": "Couteau compact conçu pour les affrontements rapprochés. Sa petite taille le rend facile à transporter et à utiliser.",
             "img": "img/weapon/melee/couteau-combat.png"
         }
     ]
