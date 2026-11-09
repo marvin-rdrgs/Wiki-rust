@@ -118,7 +118,7 @@
             "nom": "Massue en os",
             "categorie": "primitive",
             "description": "Arme contondante fabriquée avec des os. Elle permet d'infliger des dégâts au corps à corps et constitue une alternative aux armes métalliques.",
-            "img": "img/weapon/primitive/massue-os.png"
+            "img": "img/weapon/primitive/masue-os.png"
         },
         {
             "id": 18,
