@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../font/Montserrat/Montserrat-VariableFont_wght.ttf");
+    font-weight: 100 900;   /* dit au navigateur que la police gère tous les poids */
+}
+
+:root {
+    --color-bg: #333333;
+    --color-red: #a01717;
+    --color-text: #959595;
+    --color-white: #ffffff;
+    --gap: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--color-bg);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    color: var(--color-text);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    padding-left: 15px;
+    background-color: var(--color-red);
+}
+
+.logo {
+    width: 150px;
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.nav-link {
+    padding: 10px;
+    border: 1px solid var(--color-text);
+    border-radius: 5px;
+    color: var(--color-text);
+    text-align: center;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    border-color: var(--color-white);
+    color: var(--color-white);
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    height: 80vh;
+    padding: 10px;
+}
+
+.top-row,
+.col-left,
+.col-right,
+.row,
+.bottom-row {
+    display: flex;
+    gap: var(--gap);
+}
+
+.top-row    { 
+    flex: 7; 
+}
+
+.bottom-row { 
+    flex: 3; 
+}
+
+.col-left   { 
+    flex: 3; 
+}
+
+.col-right  {
+    flex: 7;
+    flex-direction: column;
+}
+
+.row { 
+    flex: 1; 
+}    
+
+.tile {
+    flex: 1;             
+    display: flex;
+    align-items: flex-end;    
+    background-color: var(--color-white);
+    color: var(--color-white);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-decoration: none;
+    border: solid 1px white;
+    transition: 0.2s;
+}
+
+.tile:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.tile-new {
+    background-image: url("../img/main/newItems.jpg");
+    background-size: auto 100%;
+    background-position: 20%;
+}
+
+.tile-update {
+    background-image: url("../img/main/updateLatest.jpg");
+    background-size: 100% auto;
+    background-position: 20%;
+}
+
+.tile-today {
+    background-image: url("../img/build/base1.jpg");
+    background-size: 100% auto;
+    background-position: bottom;
+}
+
+.tile-today:hover {
+    transform: scale(1.02);
+}
+
+.tile-item {
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--color-red);
+}
+
+.tile-jackhammer {
+    background-image: url("../img/items/outil/jackhammer.png");
+}
+
+.tile-syringe {
+    background-image: url("../img/items/outil/syringe.png");
+}
+
+.tile-ak {
+    background-image: url("../img/items/armes/feu/ak.png");
+}
+
+.footer {
+    display: flex;
+    height: 10vh;
+}
