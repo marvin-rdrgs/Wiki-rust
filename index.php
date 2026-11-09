@@ -12,7 +12,7 @@
 
 <body>
     <header class="header">
-        <img src="img/main/logo.png" alt="Logo du jeu Rust" class="logo">
+        <img src="img/page-web/logo.png" alt="Logo du jeu Rust" class="logo">
         <h1>RUST WIKI</h1>
 
         <nav class="nav">

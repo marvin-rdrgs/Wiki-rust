@@ -116,30 +116,26 @@ h1 {
 }
 
 .tile:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: 0.2s;
 }
 
 .tile-new {
-    background-image: url("../img/main/newItems.jpg");
+    background-image: url("../img/page-web/newItems.jpg");
     background-size: auto 100%;
     background-position: 20%;
 }
 
 .tile-update {
-    background-image: url("../img/main/updateLatest.jpg");
+    background-image: url("../img/page-web/updateLatest.jpg");
     background-size: 100% auto;
     background-position: 20%;
 }
 
 .tile-today {
-    background-image: url("../img/build/base1.jpg");
+    background-image: url("../img/page-web/base1.jpg");
     background-size: 100% auto;
     background-position: bottom;
-}
-
-.tile-today:hover {
-    transform: scale(1.02);
 }
 
 .tile-item {
@@ -150,15 +146,15 @@ h1 {
 }
 
 .tile-jackhammer {
-    background-image: url("../img/items/outil/jackhammer.png");
+    background-image: url("");
 }
 
 .tile-syringe {
-    background-image: url("../img/items/outil/syringe.png");
+    background-image: url("");
 }
 
 .tile-ak {
-    background-image: url("../img/items/armes/feu/ak.png");
+    background-image: url("");
 }
 
 .footer {
