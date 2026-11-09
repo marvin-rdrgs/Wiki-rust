@@ -1,0 +1,274 @@
+{
+    "weapon": [
+        {
+            "id": 1,
+            "nom": "Fusil d'assaut",
+            "categorie": "automatique",
+            "img": "img/weapon/automatique/fusil-assaut.png"
+        },
+        {
+            "id": 2,
+            "nom": "Fusil d'assaut LR-300",
+            "categorie": "automatique",
+            "img": "img/weapon/automatique/fusil-assaut-LR-300.png"
+        },
+        {
+            "id": 3,
+            "nom": "HMLMG",
+            "categorie": "automatique",
+            "img": "img/weapon/automatique/hmlmg.png"
+        },
+        {
+            "id": 4,
+            "nom": "M249",
+            "categorie": "automatique",
+            "img": "img/weapon/automatique/m249.png"
+        },
+        {
+            "id": 5,
+            "nom": "MP5A4",
+            "categorie": "automatique",
+            "img": "img/weapon/automatique/mp5.png"
+        },
+        {
+            "id": 6,
+            "nom": "SMG fait maison",
+            "categorie": "automatique",
+            "img": "img/weapon/automatique/smgCustome.png"
+        },
+        {
+            "id": 7,
+            "nom": "Minigun",
+            "categorie": "automatique",
+            "img": "img/weapon/automatique/minigun.png"
+        },
+        {
+            "id": 8,
+            "nom": "Thompson",
+            "categorie": "automatique",
+            "img": "img/weapon/automatique/Thompson.png"
+        },
+        {
+            "id": 9,
+            "nom": "Fusil à verrou",
+            "categorie": "semi-automatique",
+            "img": "img/weapon/semi-automatique/fusil-a-verrou.png"
+        },
+        {
+            "id": 10,
+            "nom": "Fusil L96",
+            "categorie": "semi-automatique",
+            "img": "img/weapon/semi-automatique/fusil-L96.png"
+        },
+        {
+            "id": 11,
+            "nom": "Fusil M39",
+            "categorie": "semi-automatique",
+            "img": "img/weapon/semi-automatique/fusil-M39.png"
+        },
+        {
+            "id": 12,
+            "nom": "Arc de chasse",
+            "categorie": "primitive",
+            "img": "img/weapon/primitive/arc-chasse.png"
+        },
+        {
+            "id": 13,
+            "nom": "Arbalète",
+            "categorie": "primitive",
+            "img": "img/weapon/primitive/arbalete.png"
+        },
+        {
+            "id": 14,
+            "nom": "Lance en bois",
+            "categorie": "primitive",
+            "img": "img/weapon/primitive/lance-bois.png"
+        },
+        {
+            "id": 15,
+            "nom": "Lance en pierre",
+            "categorie": "primitive",
+            "img": "img/weapon/primitive/lance-pierre.png"
+        },
+        {
+            "id": 16,
+            "nom": "Couteau en os",
+            "categorie": "primitive",
+            "img": "img/weapon/primitive/couteau-os.png"
+        },
+        {
+            "id": 17,
+            "nom": "Massue en os",
+            "categorie": "primitive",
+            "img": "img/weapon/primitive/massue-os.png"
+        },
+        {
+            "id": 18,
+            "nom": "Pierre",
+            "categorie": "primitive",
+            "img": "img/weapon/primitive/pierre.png"
+        },
+        {
+            "id": 19,
+            "nom": "Torche",
+            "categorie": "primitive",
+            "img": "img/weapon/primitive/torche.png"
+        },
+        {
+            "id": 20,
+            "nom": "Arc à poulies",
+            "categorie": "primitive",
+            "img": "img/weapon/primitive/arc-poulies.png"
+        },
+        {
+            "id": 21,
+            "nom": "Lampe d'arme",
+            "categorie": "accessoire",
+            "img": "img/weapon/accessoire/lampe-arme.png"
+        },
+        {
+            "id": 22,
+            "nom": "Viseur laser",
+            "categorie": "accessoire",
+            "img": "img/weapon/accessoire/viseur-laser.png"
+        },
+        {
+            "id": 23,
+            "nom": "Silencieux",
+            "categorie": "accessoire",
+            "img": "img/weapon/accessoire/silencieux.png"
+        },
+        {
+            "id": 24,
+            "nom": "Viseur holographique",
+            "categorie": "accessoire",
+            "img": "img/weapon/accessoire/viseur-holographique.png"
+        },
+        {
+            "id": 25,
+            "nom": "Viseur artisanal",
+            "categorie": "accessoire",
+            "img": "img/weapon/accessoire/viseur-artisanal.png"
+        },
+        {
+            "id": 26,
+            "nom": "Lunette 8x",
+            "categorie": "accessoire",
+            "img": "img/weapon/accessoire/lunette-8x.png"
+        },
+        {
+            "id": 27,
+            "nom": "Lunette 16x",
+            "categorie": "accessoire",
+            "img": "img/weapon/accessoire/lunette-16x.png"
+        },
+        {
+            "id": 28,
+            "nom": "Frein de bouche",
+            "categorie": "accessoire",
+            "img": "img/weapon/accessoire/frein-bouche.png"
+        },
+        {
+            "id": 29,
+            "nom": "Accélérateur de bouche",
+            "categorie": "accessoire",
+            "img": "img/weapon/accessoire/accelerateur-bouche.png"
+        },
+        {
+            "id": 30,
+            "nom": "Fusil à pompe",
+            "categorie": "pompe",
+            "img": "img/weapon/pompe/fusil-pompe.png"
+        },
+        {
+            "id": 31,
+            "nom": "Spas-12",
+            "categorie": "pompe",
+            "img": "img/weapon/pompe/spas-12.png"
+        },
+        {
+            "id": 32,
+            "nom": "Double canon",
+            "categorie": "pompe",
+            "img": "img/weapon/pompe/double-canon.png"
+        },
+        {
+            "id": 33,
+            "nom": "Eoka",
+            "categorie": "pistolet",
+            "img": "img/weapon/pistolet/eoka.png"
+        },
+        {
+            "id": 34,
+            "nom": "Pistolet semi-automatique",
+            "categorie": "pistolet",
+            "img": "img/weapon/pistolet/pistolet-semi-automatique.png"
+        },
+        {
+            "id": 35,
+            "nom": "Revolver",
+            "categorie": "pistolet",
+            "img": "img/weapon/pistolet/revolver.png"
+        },
+        {
+            "id": 36,
+            "nom": "Python",
+            "categorie": "pistolet",
+            "img": "img/weapon/pistolet/python.png"
+        },
+        {
+            "id": 37,
+            "nom": "Pistolet M92",
+            "categorie": "pistolet",
+            "img": "img/weapon/pistolet/m92.png"
+        },
+        {
+            "id": 38,
+            "nom": "Lance-roquettes",
+            "categorie": "lanceur",
+            "img": "img/weapon/lanceur/lance-roquettes.png"
+        },
+        {
+            "id": 39,
+            "nom": "Lance-grenades multiple",
+            "categorie": "lanceur",
+            "img": "img/weapon/lanceur/lance-grenades.png"
+        },
+        {
+            "id": 40,
+            "nom": "Lance-flammes",
+            "categorie": "lanceur",
+            "img": "img/weapon/lanceur/lance-flammes.png"
+        },
+        {
+            "id": 41,
+            "nom": "Hachette",
+            "categorie": "melee",
+            "img": "img/weapon/melee/hachette.png"
+        },
+        {
+            "id": 42,
+            "nom": "Hache de pierre",
+            "categorie": "melee",
+            "img": "img/weapon/melee/hache-pierre.png"
+        },
+        {
+            "id": 43,
+            "nom": "Épée longue",
+            "categorie": "melee",
+            "img": "img/weapon/melee/epee-longue.png"
+        },
+        {
+            "id": 44,
+            "nom": "Machette",
+            "categorie": "melee",
+            "img": "img/weapon/melee/machette.png"
+        },
+        {
+            "id": 45,
+            "nom": "Couteau de combat",
+            "categorie": "melee",
+            "img": "img/weapon/melee/couteau-combat.png"
+        }
+    ]
+}
