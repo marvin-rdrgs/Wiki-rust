@@ -67,7 +67,7 @@ sort($categories);
                     data-categorie="<?= htmlspecialchars($w["categorie"]) ?>"
                     id="<?= "item" . htmlspecialchars($w["id"]) ?>">
 
-                    <a href="arme-detail.php?id=<?= urlencode($w["id"]) ?>" class="item-thumb">
+                    <a href="item-detail.php?id=<?= urlencode($w["id"]) ?>" class="item-thumb">
                         <img
                             src="<?= htmlspecialchars($w["img"]) ?>"
                             class="item-img"

@@ -3,7 +3,7 @@
 
     $data = json_decode(file_get_contents('json/data.json'), true);
 
-    $weaponsById = array_column($data['weapon'], null, 'id');
+    $weaponsById = array_column($data['tools'], null, 'id');
     $weapon = $weaponsById[$id] ?? null;
 
 ?>

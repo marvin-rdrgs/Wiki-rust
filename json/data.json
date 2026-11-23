@@ -71,74 +71,109 @@
             "img": "img/items/tools/stonehatchet.png"
         },
         {
-            "id": 1,
+            "id": 11,
             "nom": "Drone",
             "categorie": "vehicule",
             "description": "Petit appareil télécommandé pour repérer les alentours sans se mettre en danger.",
             "img": "img/items/vehicle/drone.png"
         },
         {
-            "id": 2,
+            "id": 12,
             "nom": "Moteur",
             "categorie": "vehicule",
             "description": "Composant essentiel pour faire tourner et propulser un véhicule.",
             "img": "img/items/vehicle/engine.png"
         },
         {
-            "id": 3,
+            "id": 13,
             "nom": "Moto",
             "categorie": "vehicule",
             "description": "Véhicule rapide et maniable pour traverser la carte en solo.",
             "img": "img/items/vehicle/motorbike.png"
         },
         {
-            "id": 4,
+            "id": 14,
             "nom": "Moto avec side-car",
             "categorie": "vehicule",
             "description": "Moto équipée d'un side-car pour transporter un coéquipier. Idéale pour se déplacer à deux.",
             "img": "img/items/vehicle/motorbike-sidecar.png"
         },
         {
-            "id": 5,
+            "id": 15,
             "nom": "Barque",
             "categorie": "vehicule",
             "description": "Embarcation à rames simple et fiable pour naviguer sur l'eau.",
             "img": "img/items/vehicle/rowboat.png"
         },
         {
-            "id": 6,
+            "id": 16,
             "nom": "Motoneige",
             "categorie": "vehicule",
             "description": "Véhicule conçu pour filer sur la neige et la glace sans se faire ralentir.",
             "img": "img/items/vehicle/skidoo.png"
         },
         {
-            "id": 7,
+            "id": 17,
             "nom": "Petit moteur",
             "categorie": "vehicule",
             "description": "Moteur compact destiné aux petits véhicules et aux équipements légers.",
             "img": "img/items/vehicle/smallengine.png"
         },
         {
-            "id": 1,
+            "id": 18,
             "nom": "Établi niveau 1",
             "categorie": "etabli",
             "description": "Premier niveau d'établi. Permet de fabriquer les objets de base et de débloquer les premières technologies.",
             "img": "img/items/workbench/workbench1.png"
         },
         {
-            "id": 2,
+            "id": 19,
             "nom": "Établi niveau 2",
             "categorie": "etabli",
             "description": "Établi intermédiaire donnant accès à des objets plus avancés et à de nouvelles recherches.",
             "img": "img/items/workbench/workbench2.png"
         },
         {
-            "id": 3,
+            "id": 20,
             "nom": "Établi niveau 3",
             "categorie": "etabli",
             "description": "Établi de dernier niveau pour fabriquer l'équipement le plus puissant du jeu.",
             "img": "img/items/workbench/workbench3.png"
+        },
+        {
+            "id": 21,
+            "nom": "Combinaison NBC",
+            "categorie": "vetement",
+            "description": "Tenue intégrale qui protège des zones radioactives. Pas très stylée, mais ça sauve des vies.",
+            "img": "img/items/attire/hazmatsuit.png"
+        },
+        {
+            "id": 22,
+            "nom": "Hoodie",
+            "categorie": "vetement",
+            "description": "Sweat à capuche cosy qui tient chaud. Le classique de tout survivant qui se respecte.",
+            "img": "img/items/attire/hoodie.png"
+        },
+        {
+            "id": 23,
+            "nom": "Veste",
+            "categorie": "vetement",
+            "description": "Veste solide pour se protéger du froid et des coups durs.",
+            "img": "img/items/attire/jacket.png"
+        },
+        {
+            "id": 24,
+            "nom": "Pantalon",
+            "categorie": "vetement",
+            "description": "Pantalon résistant pour avoir les jambes couvertes pendant l'aventure.",
+            "img": "img/items/attire/pants.png"
+        },
+        {
+            "id": 25,
+            "nom": "Parachute",
+            "categorie": "vetement",
+            "description": "Permet de se jeter dans le vide et d'atterrir en un seul morceau.",
+            "img": "img/items/attire/parachute.png"
         }
     ]
 }
