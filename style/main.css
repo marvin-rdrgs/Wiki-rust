@@ -423,3 +423,8 @@ select.toolbar-field {
         transform: none;
     }
 }
+
+.weapon-blurred {
+    filter: blur(12px);
+    transition: filter 0.3s ease;
+}

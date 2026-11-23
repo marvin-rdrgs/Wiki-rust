@@ -1,8 +1,9 @@
+
 <?php
 $data = json_decode(file_get_contents("json/data.json"), true);
 $weapon = $data["weapon"];
 
-// Catégories uniques pour le filtre (générées depuis le JSON)
+// Catégories uniques pour le filtre
 $categories = array_values(array_unique(array_column($weapon, "categorie")));
 sort($categories);
 ?>
@@ -17,11 +18,35 @@ sort($categories);
 
     <link rel="stylesheet" href="style/main.css">
     <script src="js/script.js" defer></script>
+
+    <style>
+        .weapon-blurred {
+            filter: blur(12px);
+            transition: filter 0.3s ease;
+        }
+
+        .blur-button {
+            padding: 10px 20px;
+            background-color: #c0392b;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .blur-button:hover {
+            background-color: #e74c3c;
+        }
+    </style>
 </head>
 
 <body>
+
     <header class="header">
         <img src="img/page-web/logo.png" alt="Logo du jeu Rust" class="logo">
+
         <h1>RUST WIKI</h1>
 
         <nav class="nav">
@@ -29,6 +54,10 @@ sort($categories);
             <a href="#" class="nav-link">Builds</a>
             <a href="#" class="nav-link">Calculator</a>
         </nav>
+
+        <button id="blurButton" class="blur-button">
+            Flouter les armes
+        </button>
     </header>
 
     <main class="items-page">
@@ -44,6 +73,7 @@ sort($categories);
         </section>
 
         <div class="toolbar">
+
             <input
                 type="search"
                 id="search"
@@ -53,13 +83,19 @@ sort($categories);
 
             <select id="categorie" class="toolbar-field" aria-label="Filtrer par catégorie">
                 <option value="toutes">Toutes les catégories</option>
+
                 <?php foreach ($categories as $c): ?>
-                    <option value="<?= htmlspecialchars($c) ?>"><?= htmlspecialchars($c) ?></option>
+                    <option value="<?= htmlspecialchars($c) ?>">
+                        <?= htmlspecialchars($c) ?>
+                    </option>
                 <?php endforeach; ?>
+
             </select>
+
         </div>
 
         <div class="items-grid">
+
             <?php foreach ($weapon as $w): ?>
 
                 <article class="item-card arme"
@@ -67,56 +103,112 @@ sort($categories);
                     data-categorie="<?= htmlspecialchars($w["categorie"]) ?>">
 
                     <a href="arme-detail.php?id=<?= urlencode($w["id"]) ?>" class="item-thumb">
+
                         <img
                             src="<?= htmlspecialchars($w["img"]) ?>"
-                            class="item-img"
+                            class="item-img weapon"
                             alt="<?= htmlspecialchars($w["nom"]) ?>"
                             loading="lazy">
+
                     </a>
 
                     <div class="item-body">
-                        <h3 class="item-name"><?= htmlspecialchars($w["nom"]) ?></h3>
-                        <p class="item-category"><?= htmlspecialchars($w["categorie"]) ?></p>
-                        <p class="item-desc"><?= htmlspecialchars($w["description"]) ?></p>
+
+                        <h3 class="item-name">
+                            <?= htmlspecialchars($w["nom"]) ?>
+                        </h3>
+
+                        <p class="item-category">
+                            <?= htmlspecialchars($w["categorie"]) ?>
+                        </p>
+
+                        <p class="item-desc">
+                            <?= htmlspecialchars($w["description"]) ?>
+                        </p>
+
                     </div>
 
                 </article>
 
             <?php endforeach; ?>
+
         </div>
 
-        <p class="no-result" id="no-result">Aucun item trouvé. Essaie un autre mot.</p>
+        <p class="no-result" id="no-result">
+            Aucun item trouvé. Essaie un autre mot.
+        </p>
 
     </main>
 
     <footer class="footer"></footer>
 
     <script>
+
+        // Recherche et filtre par catégorie
+
         const recherche = document.getElementById("search");
         const categorie = document.getElementById("categorie");
         const armes = document.querySelectorAll(".arme");
         const aucunResultat = document.getElementById("no-result");
 
         function filtrerArmes() {
+
             const texte = recherche.value.toLowerCase().trim();
             const filtre = categorie.value;
+
             let visibles = 0;
 
             armes.forEach(arme => {
+
                 const correspondNom = arme.dataset.nom.includes(texte);
+
                 const correspondCategorie =
-                    filtre === "toutes" || arme.dataset.categorie === filtre;
+                    filtre === "toutes" ||
+                    arme.dataset.categorie === filtre;
+
                 const afficher = correspondNom && correspondCategorie;
 
                 arme.style.display = afficher ? "" : "none";
+
                 if (afficher) visibles++;
+
             });
 
             aucunResultat.classList.toggle("visible", visibles === 0);
+
         }
 
         recherche.addEventListener("input", filtrerArmes);
         categorie.addEventListener("change", filtrerArmes);
+
+
+        // Floutage de toutes les armes
+
+        const blurButton = document.getElementById("blurButton");
+
+        let armesFloutees = false;
+
+        blurButton.addEventListener("click", function () {
+
+            const images = document.querySelectorAll(
+                ".weapon, .featured-tile, .item-thumb img, .item-card img"
+        );
+
+            armesFloutees = !armesFloutees;
+
+            images.forEach(image => {
+
+                image.classList.toggle("weapon-blurred", armesFloutees);
+
+            });
+
+            blurButton.textContent = armesFloutees
+                ? "Afficher les armes"
+                : "Flouter les armes";
+
+        });
+
     </script>
+
 </body>
 </html>
