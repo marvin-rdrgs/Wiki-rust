@@ -1,6 +1,6 @@
 <?php
 $data = json_decode(file_get_contents("json/data.json"), true);
-$weapon = $data["weapon"];
+$weapon = $data["tools"];
 
 // Catégories uniques pour le filtre (générées depuis le JSON)
 $categories = array_values(array_unique(array_column($weapon, "categorie")));

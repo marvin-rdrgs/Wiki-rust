@@ -1,515 +1,144 @@
 {
-    "weapon": [
+    "tools": [
         {
             "id": 1,
-            "nom": "Fusil d'assaut",
-            "categorie": "automatique",
-            "description": "Fusil d'assaut polyvalent offrant une bonne cadence de tir et une puissance élevée. Il est particulièrement efficace à moyenne et longue distance.",
-            "img": "img/weapon/automatique/fusil-assaut.png"
+            "nom": "Plan de bateau",
+            "categorie": "outil",
+            "description": "Plan permettant de fabriquer une embarcation. Indispensable pour qui veut prendre le large.",
+            "img": "img/items/tools/boatplan.png"
         },
         {
             "id": 2,
-            "nom": "Fusil d'assaut LR-300",
-            "categorie": "automatique",
-            "description": "Fusil automatique réputé pour sa cadence de tir élevée et son recul relativement maîtrisable. Il convient aux combats rapprochés et à moyenne distance.",
-            "img": "img/weapon/automatique/fusil-assaut-LR-300.png"
+            "nom": "Tronçonneuse",
+            "categorie": "outil",
+            "description": "Outil motorisé très rapide pour abattre les arbres. Consomme du carburant mais récolte le bois en un clin d'œil.",
+            "img": "img/items/tools/chainsaw.png"
         },
         {
             "id": 3,
-            "nom": "HMLMG",
-            "categorie": "automatique",
-            "description": "Mitrailleuse lourde offrant une grande capacité de tir. Elle est conçue pour maintenir une pression importante lors des affrontements.",
-            "img": "img/weapon/automatique/hmlmg.png"
+            "nom": "Lampe torche",
+            "categorie": "outil",
+            "description": "Source de lumière portative pour explorer les zones sombres et les bâtiments la nuit.",
+            "img": "img/items/tools/flashlight.png"
         },
         {
             "id": 4,
-            "nom": "M249",
-            "categorie": "automatique",
-            "description": "Mitrailleuse légère militaire disposant d'un chargeur de grande capacité. Elle permet de tirer en continu et de soutenir efficacement une équipe.",
-            "img": "img/weapon/automatique/m249.png"
+            "nom": "Marteau",
+            "categorie": "outil",
+            "description": "Outil de base pour construire et réparer ses structures.",
+            "img": "img/items/tools/hammer.png"
         },
         {
             "id": 5,
-            "nom": "MP5A4",
-            "categorie": "automatique",
-            "description": "Pistolet-mitrailleur automatique offrant une bonne précision et une cadence de tir rapide. Il est particulièrement adapté aux combats rapprochés.",
-            "img": "img/weapon/automatique/mp5.png"
+            "nom": "Hachette",
+            "categorie": "outil",
+            "description": "Petite hache légère pour récolter du bois et des carcasses d'animaux.",
+            "img": "img/items/tools/hatchet.png"
         },
         {
             "id": 6,
-            "nom": "SMG fait maison",
-            "categorie": "automatique",
-            "description": "Arme automatique artisanale fabriquée avec des matériaux récupérés. Elle constitue une solution accessible pour les combats à courte distance.",
-            "img": "img/weapon/automatique/smgCustome.png"
+            "nom": "Marteau-piqueur",
+            "categorie": "outil",
+            "description": "Outil motorisé qui pulvérise les rochers pour récolter la pierre et les minerais à vitesse grand V.",
+            "img": "img/items/tools/jackhammer.png"
         },
         {
             "id": 7,
-            "nom": "Minigun",
-            "categorie": "automatique",
-            "description": "Arme automatique équipée de plusieurs canons rotatifs. Elle possède une cadence de tir extrêmement élevée et une grande capacité de munitions.",
-            "img": "img/weapon/automatique/minigun.png"
+            "nom": "Pioche",
+            "categorie": "outil",
+            "description": "Pioche solide pour miner la pierre, le métal et le soufre efficacement.",
+            "img": "img/items/tools/pickaxe.png"
         },
         {
             "id": 8,
-            "nom": "Thompson",
-            "categorie": "automatique",
-            "description": "Pistolet-mitrailleur automatique apprécié pour sa simplicité et sa cadence de tir. Il est efficace lors des affrontements à courte et moyenne distance.",
-            "img": "img/weapon/automatique/Thompson.png"
+            "nom": "Plan de construction",
+            "categorie": "outil",
+            "description": "Outil permettant de placer et d'améliorer les éléments de sa base.",
+            "img": "img/items/tools/plan.png"
         },
         {
             "id": 9,
-            "nom": "Fusil à verrou",
-            "categorie": "semi-automatique",
-            "description": "Fusil de précision nécessitant un rechargement manuel entre chaque tir. Il offre une bonne puissance et convient aux tirs à longue distance.",
-            "img": "img/weapon/semi-automatique/fusil-a-verrou.png"
+            "nom": "Pioche en pierre",
+            "categorie": "outil",
+            "description": "Pioche rudimentaire accessible dès le début de partie pour récolter les premières ressources minérales.",
+            "img": "img/items/tools/stone.pickaxe.png"
         },
         {
             "id": 10,
-            "nom": "Fusil L96",
-            "categorie": "semi-automatique",
-            "description": "Fusil de précision militaire conçu pour les tirs à très longue distance. Il inflige des dégâts importants et dispose d'une excellente portée.",
-            "img": "img/weapon/semi-automatique/fusil-L96.png"
+            "nom": "Hache en pierre",
+            "categorie": "outil",
+            "description": "Hache primitive fabriquée avec des matériaux de base. Parfaite pour démarrer la récolte de bois.",
+            "img": "img/items/tools/stonehatchet.png"
         },
         {
-            "id": 11,
-            "nom": "Fusil M39",
-            "categorie": "semi-automatique",
-            "description": "Fusil semi-automatique militaire offrant une bonne précision et une puissance intéressante. Il permet d'enchaîner les tirs sans recharger manuellement après chaque coup.",
-            "img": "img/weapon/semi-automatique/fusil-M39.png"
+            "id": 1,
+            "nom": "Drone",
+            "categorie": "vehicule",
+            "description": "Petit appareil télécommandé pour repérer les alentours sans se mettre en danger.",
+            "img": "img/items/vehicle/drone.png"
         },
         {
-            "id": 12,
-            "nom": "Arc de chasse",
-            "categorie": "primitive",
-            "description": "Arc traditionnel permettant de tirer des flèches sans utiliser de munitions modernes. Il représente une arme silencieuse adaptée aux débuts de partie.",
-            "img": "img/weapon/primitive/arc-chasse.png"
+            "id": 2,
+            "nom": "Moteur",
+            "categorie": "vehicule",
+            "description": "Composant essentiel pour faire tourner et propulser un véhicule.",
+            "img": "img/items/vehicle/engine.png"
         },
         {
-            "id": 13,
-            "nom": "Arbalète",
-            "categorie": "primitive",
-            "description": "Arme primitive lançant des carreaux avec une bonne précision. Elle permet d'attaquer à distance sans produire beaucoup de bruit.",
-            "img": "img/weapon/primitive/arbalete.png"
+            "id": 3,
+            "nom": "Moto",
+            "categorie": "vehicule",
+            "description": "Véhicule rapide et maniable pour traverser la carte en solo.",
+            "img": "img/items/vehicle/motorbike.png"
         },
         {
-            "id": 14,
-            "nom": "Lance en bois",
-            "categorie": "primitive",
-            "description": "Arme rudimentaire fabriquée à partir de bois. Elle peut être utilisée au corps à corps ou lancée pour attaquer un adversaire à distance.",
-            "img": "img/weapon/primitive/lance-bois.png"
+            "id": 4,
+            "nom": "Moto avec side-car",
+            "categorie": "vehicule",
+            "description": "Moto équipée d'un side-car pour transporter un coéquipier. Idéale pour se déplacer à deux.",
+            "img": "img/items/vehicle/motorbike-sidecar.png"
         },
         {
-            "id": 15,
-            "nom": "Lance en pierre",
-            "categorie": "primitive",
-            "description": "Lance artisanale équipée d'une pointe en pierre. Elle constitue une arme primitive polyvalente pour les premiers affrontements.",
-            "img": "img/weapon/primitive/lance-pierre.png"
+            "id": 5,
+            "nom": "Barque",
+            "categorie": "vehicule",
+            "description": "Embarcation à rames simple et fiable pour naviguer sur l'eau.",
+            "img": "img/items/vehicle/rowboat.png"
         },
         {
-            "id": 16,
-            "nom": "Couteau en os",
-            "categorie": "primitive",
-            "description": "Petit outil tranchant fabriqué à partir d'os. Il peut servir d'arme de mêlée et permet également de récolter certaines ressources.",
-            "img": "img/weapon/primitive/couteau-os.png"
+            "id": 6,
+            "nom": "Motoneige",
+            "categorie": "vehicule",
+            "description": "Véhicule conçu pour filer sur la neige et la glace sans se faire ralentir.",
+            "img": "img/items/vehicle/skidoo.png"
         },
         {
-            "id": 17,
-            "nom": "Massue en os",
-            "categorie": "primitive",
-            "description": "Arme contondante fabriquée avec des os. Elle permet d'infliger des dégâts au corps à corps et constitue une alternative aux armes métalliques.",
-            "img": "img/weapon/primitive/masue-os.png"
+            "id": 7,
+            "nom": "Petit moteur",
+            "categorie": "vehicule",
+            "description": "Moteur compact destiné aux petits véhicules et aux équipements légers.",
+            "img": "img/items/vehicle/smallengine.png"
         },
         {
-            "id": 18,
-            "nom": "Pierre",
-            "categorie": "primitive",
-            "description": "Pierre basique disponible dès le début de l'aventure. Elle sert principalement à récolter des ressources et peut également être utilisée pour se défendre.",
-            "img": "img/weapon/primitive/pierre.png"
+            "id": 1,
+            "nom": "Établi niveau 1",
+            "categorie": "etabli",
+            "description": "Premier niveau d'établi. Permet de fabriquer les objets de base et de débloquer les premières technologies.",
+            "img": "img/items/workbench/workbench1.png"
         },
         {
-            "id": 19,
-            "nom": "Torche",
-            "categorie": "primitive",
-            "description": "Source de lumière rudimentaire permettant d'éclairer les zones sombres. Elle peut également être utilisée comme arme improvisée.",
-            "img": "img/weapon/primitive/torche.png"
+            "id": 2,
+            "nom": "Établi niveau 2",
+            "categorie": "etabli",
+            "description": "Établi intermédiaire donnant accès à des objets plus avancés et à de nouvelles recherches.",
+            "img": "img/items/workbench/workbench2.png"
         },
         {
-            "id": 20,
-            "nom": "Arc à poulies",
-            "categorie": "primitive",
-            "description": "Arc perfectionné utilisant un système de poulies pour faciliter la tension de la corde. Il permet de tirer des flèches avec une bonne puissance.",
-            "img": "img/weapon/primitive/arc-poulies.png"
-        },
-        {
-            "id": 21,
-            "nom": "Lampe d'arme",
-            "categorie": "accessoire",
-            "description": "Accessoire lumineux pouvant être fixé sur une arme compatible. Il permet d'améliorer la visibilité dans les endroits sombres.",
-            "img": "img/weapon/accessoire/lampe-arme.png"
-        },
-        {
-            "id": 22,
-            "nom": "Viseur laser",
-            "categorie": "accessoire",
-            "description": "Accessoire projetant un faisceau laser pour faciliter la visée. Il permet de mieux visualiser la direction de son arme.",
-            "img": "img/weapon/accessoire/viseur-laser.png"
-        },
-        {
-            "id": 23,
-            "nom": "Silencieux",
-            "categorie": "accessoire",
-            "description": "Accessoire permettant de réduire le bruit des tirs. Il rend les armes moins bruyantes lors des affrontements.",
-            "img": "img/weapon/accessoire/silencieux.png"
-        },
-        {
-            "id": 24,
-            "nom": "Viseur holographique",
-            "categorie": "accessoire",
-            "description": "Viseur moderne affichant un réticule holographique. Il facilite l'acquisition de cible et améliore le confort de visée.",
-            "img": "img/weapon/accessoire/viseur-holographique.png"
-        },
-        {
-            "id": 25,
-            "nom": "Viseur artisanal",
-            "categorie": "accessoire",
-            "description": "Viseur fabriqué de manière artisanale. Il offre un système de visée simple pour améliorer la précision de certaines armes.",
-            "img": "img/weapon/accessoire/viseur-artisanal.png"
-        },
-        {
-            "id": 26,
-            "nom": "Lunette 8x",
-            "categorie": "accessoire",
-            "description": "Lunette de visée offrant un grossissement de huit fois. Elle permet d'observer et de viser des cibles éloignées.",
-            "img": "img/weapon/accessoire/lunette-8x.png"
-        },
-        {
-            "id": 27,
-            "nom": "Lunette 16x",
-            "categorie": "accessoire",
-            "description": "Lunette de précision disposant d'un grossissement de seize fois. Elle est particulièrement adaptée à l'observation et aux tirs à très longue distance.",
-            "img": "img/weapon/accessoire/lunette-16x.png"
-        },
-        {
-            "id": 28,
-            "nom": "Frein de bouche",
-            "categorie": "accessoire",
-            "description": "Accessoire de canon conçu pour réduire le recul de l'arme. Il permet de mieux contrôler les tirs successifs.",
-            "img": "img/weapon/accessoire/frein-bouche.png"
-        },
-        {
-            "id": 29,
-            "nom": "Accélérateur de bouche",
-            "categorie": "accessoire",
-            "description": "Accessoire de canon modifiant le comportement de l'arme lors du tir. Il favorise une cadence de tir plus rapide sur les armes compatibles.",
-            "img": "img/weapon/accessoire/accelerateur-bouche.png"
-        },
-        {
-            "id": 30,
-            "nom": "Fusil à pompe",
-            "categorie": "pompe",
-            "description": "Fusil à pompe classique utilisant des cartouches à chevrotine. Il est particulièrement puissant lors des combats à courte distance.",
-            "img": "img/weapon/pompe/fusil-pompe.png"
-        },
-        {
-            "id": 31,
-            "nom": "Spas-12",
-            "categorie": "pompe",
-            "description": "Fusil à pompe moderne offrant une bonne puissance et une capacité intéressante. Il est redoutable lors des affrontements rapprochés.",
-            "img": "img/weapon/pompe/spas-12.png"
-        },
-        {
-            "id": 32,
-            "nom": "Double canon",
-            "categorie": "pompe",
-            "description": "Fusil à deux canons permettant de tirer deux cartouches rapidement. Il inflige des dégâts importants à très courte distance.",
-            "img": "img/weapon/pompe/double-canon.png"
-        },
-        {
-            "id": 33,
-            "nom": "Eoka",
-            "categorie": "pistolet",
-            "description": "Pistolet artisanal à silex fabriqué avec des matériaux simples. Il représente une arme primitive peu coûteuse mais peu fiable.",
-            "img": "img/weapon/pistolet/eoka.png"
-        },
-        {
-            "id": 34,
-            "nom": "Pistolet semi-automatique",
-            "categorie": "pistolet",
-            "description": "Pistolet léger permettant d'enchaîner plusieurs tirs rapidement. Il constitue une arme secondaire pratique pour les combats rapprochés.",
-            "img": "img/weapon/pistolet/pistolet-semi-automatique.png"
-        },
-        {
-            "id": 35,
-            "nom": "Revolver",
-            "categorie": "pistolet",
-            "description": "Arme de poing classique fonctionnant avec un barillet. Il offre une puissance intéressante et une utilisation relativement simple.",
-            "img": "img/weapon/pistolet/revolver.png"
-        },
-        {
-            "id": 36,
-            "nom": "Python",
-            "categorie": "pistolet",
-            "description": "Revolver puissant disposant d'une excellente puissance par tir. Il est apprécié pour ses dégâts élevés malgré sa capacité limitée.",
-            "img": "img/weapon/pistolet/python.png"
-        },
-        {
-            "id": 37,
-            "nom": "Pistolet M92",
-            "categorie": "pistolet",
-            "description": "Pistolet semi-automatique militaire offrant une bonne cadence de tir. Il dispose d'une capacité de chargeur confortable pour une arme secondaire.",
-            "img": "img/weapon/pistolet/m92.png"
-        },
-        {
-            "id": 38,
-            "nom": "Lance-roquettes",
-            "categorie": "lanceur",
-            "description": "Arme lourde permettant de tirer différents types de roquettes. Elle est principalement utilisée contre les structures et les véhicules.",
-            "img": "img/weapon/lanceur/lance-roquettes.png"
-        },
-        {
-            "id": 39,
-            "nom": "Lance-grenades multiple",
-            "categorie": "lanceur",
-            "description": "Lanceur capable de tirer plusieurs grenades successivement. Il permet de projeter différents types de munitions explosives.",
-            "img": "img/weapon/lanceur/lance-grenades.png"
-        },
-        {
-            "id": 40,
-            "nom": "Lance-flammes",
-            "categorie": "lanceur",
-            "description": "Arme projetant un jet de flammes à courte portée. Elle peut être utilisée contre les adversaires et certaines structures.",
-            "img": "img/weapon/lanceur/lance-flammes.png"
-        },
-        {
-            "id": 41,
-            "nom": "Hachette",
-            "categorie": "melee",
-            "description": "Petite hache polyvalente utilisée pour récolter du bois et combattre au corps à corps. Elle constitue un outil pratique pour la survie.",
-            "img": "img/weapon/melee/hachette.png"
-        },
-        {
-            "id": 42,
-            "nom": "Hache de pierre",
-            "categorie": "melee",
-            "description": "Hache primitive fabriquée avec du bois et de la pierre. Elle permet de récolter des ressources et de se défendre.",
-            "img": "img/weapon/melee/hache-pierre.png"
-        },
-        {
-            "id": 43,
-            "nom": "Épée longue",
-            "categorie": "melee",
-            "description": "Arme de mêlée composée d'une longue lame métallique. Elle permet d'infliger des dégâts importants lors des combats rapprochés.",
-            "img": "img/weapon/melee/epee-longue.png"
-        },
-        {
-            "id": 44,
-            "nom": "Machette",
-            "categorie": "melee",
-            "description": "Lame longue et robuste pouvant servir aussi bien d'outil que d'arme. Elle est efficace pour les affrontements au corps à corps.",
-            "img": "img/weapon/melee/machette.png"
-        },
-        {
-            "id": 45,
-            "nom": "Couteau de combat",
-            "categorie": "melee",
-            "description": "Couteau compact conçu pour les affrontements rapprochés. Sa petite taille le rend facile à transporter et à utiliser.",
-            "img": "img/weapon/melee/couteau-combat.png"
-        },
-        {
-            "id": 46,
-            "nom": "M16A2",
-            "categorie": "automatique",
-            "description": "Fusil d'assaut automatique polyvalent, conçu pour offrir une bonne précision et une cadence de tir élevée. Il permet d'engager efficacement les adversaires à moyenne et longue distance.",
-            "img": "img/weapon/automatique/m16.png"
-        },
-        {
-            "id": 47,
-            "nom": "Uzi",
-            "categorie": "automatique",
-            "description": "Pistolet-mitrailleur compact et léger, offrant une cadence de tir élevée. Particulièrement efficace à courte distance grâce à sa maniabilité et sa rapidité de tir.",
-            "img": "img/weapon/automatique/smg-uzi.png"
-        },
-        {
-            "id": 48,
-            "nom": "M4 Shotgun",
-            "categorie": "pompe",
-            "description": "Fusil à pompe puissant conçu pour les combats rapprochés. Il inflige des dégâts importants à courte distance.",
-            "img": "img/weapon/pompe/m4-shotgun.png"
-        },
-        {
-            "id": 49,
-            "nom": "Lance-flammes militaire",
-            "categorie": "lanceur",
-            "description": "Arme incendiaire permettant de projeter des flammes pour attaquer des cibles à courte portée.",
-            "img": "img/weapon/lanceur/lance-flammes-mili.png"
-        },
-        {
-            "id": 50,
-            "nom": "Munitions 5.56",
-            "categorie": "munition",
-            "description": "Munition standard des fusils d'assaut et des mitrailleuses. C'est la munition de base pour les armes automatiques de calibre 5.56.",
-            "img": "img/weapon/munition/munitions-556.png"
-        },
-        {
-            "id": 51,
-            "nom": "Munitions 5.56 HV",
-            "categorie": "munition",
-            "description": "Munition 5.56 à haute vitesse. Elle offre une trajectoire plus tendue et une meilleure portée que la munition standard.",
-            "img": "img/weapon/munition/munitions-556-hv.png"
-        },
-        {
-            "id": 52,
-            "nom": "Munitions 5.56 incendiaires",
-            "categorie": "munition",
-            "description": "Munition 5.56 qui enflamme la cible à l'impact. Elle inflige des dégâts de feu en plus des dégâts classiques.",
-            "img": "img/weapon/munition/munitions-556-incendiaires.png"
-        },
-        {
-            "id": 53,
-            "nom": "Munitions 5.56 explosives",
-            "categorie": "munition",
-            "description": "Munition 5.56 explosive infligeant des dégâts supplémentaires aux structures. Elle est surtout utilisée pour le raid.",
-            "img": "img/weapon/munition/munitions-556-explosives.png"
-        },
-        {
-            "id": 54,
-            "nom": "Munitions de pistolet",
-            "categorie": "munition",
-            "description": "Munition standard pour pistolets et pistolets-mitrailleurs. Elle convient aux combats rapprochés et à moyenne distance.",
-            "img": "img/weapon/munition/munitions-pistolet.png"
-        },
-        {
-            "id": 55,
-            "nom": "Munitions de pistolet HV",
-            "categorie": "munition",
-            "description": "Munition de pistolet à haute vitesse. Elle améliore la portée et la précision des armes compatibles.",
-            "img": "img/weapon/munition/munitions-pistolet-hv.png"
-        },
-        {
-            "id": 56,
-            "nom": "Munitions de pistolet incendiaires",
-            "categorie": "munition",
-            "description": "Munition de pistolet qui enflamme la cible à l'impact. Elle ajoute des dégâts de feu aux dégâts de base.",
-            "img": "img/weapon/munition/munitions-pistolet-incendiaires.png"
-        },
-        {
-            "id": 57,
-            "nom": "Cartouche artisanale",
-            "categorie": "munition",
-            "description": "Cartouche fabriquée avec des matériaux simples. Elle sert aux armes artisanales comme l'Eoka.",
-            "img": "img/weapon/munition/cartouche-artisanale.png"
-        },
-        {
-            "id": 58,
-            "nom": "Chevrotine calibre 12",
-            "categorie": "munition",
-            "description": "Cartouche de fusil à pompe projetant plusieurs plombs à la fois. Elle est très efficace à courte distance.",
-            "img": "img/weapon/munition/chevrotine-calibre-12.png"
-        },
-        {
-            "id": 59,
-            "nom": "Cartouche à balle calibre 12",
-            "categorie": "munition",
-            "description": "Cartouche de fusil à pompe tirant un projectile unique. Elle offre une meilleure portée et plus de précision que la chevrotine.",
-            "img": "img/weapon/munition/balle-calibre-12.png"
-        },
-        {
-            "id": 60,
-            "nom": "Cartouche incendiaire calibre 12",
-            "categorie": "munition",
-            "description": "Cartouche de fusil à pompe qui enflamme la cible à l'impact. Elle inflige des dégâts de feu à courte distance.",
-            "img": "img/weapon/munition/cartouche-incendiaire-calibre-12.png"
-        },
-        {
-            "id": 61,
-            "nom": "Flèche en bois",
-            "categorie": "munition",
-            "description": "Flèche de base fabriquée avec du bois. Elle s'utilise avec l'arc et l'arbalète pour attaquer en silence.",
-            "img": "img/weapon/munition/fleche-bois.png"
-        },
-        {
-            "id": 62,
-            "nom": "Flèche haute vitesse",
-            "categorie": "munition",
-            "description": "Flèche améliorée avec une trajectoire plus rapide. Elle convient aux tirs à plus longue distance.",
-            "img": "img/weapon/munition/fleche-haute-vitesse.png"
-        },
-        {
-            "id": 63,
-            "nom": "Flèche en os",
-            "categorie": "munition",
-            "description": "Flèche fabriquée avec de l'os. Elle représente une alternative simple et accessible dès le début de partie.",
-            "img": "img/weapon/munition/fleche-os.png"
-        },
-        {
-            "id": 64,
-            "nom": "Flèche incendiaire",
-            "categorie": "munition",
-            "description": "Flèche enflammée qui met le feu à sa cible. Elle peut aussi servir à allumer des structures en bois.",
-            "img": "img/weapon/munition/fleche-incendiaire.png"
-        },
-        {
-            "id": 65,
-            "nom": "Clous",
-            "categorie": "munition",
-            "description": "Munition du pistolet à clous. Elle sert aux affrontements à très courte distance.",
-            "img": "img/weapon/munition/clous.png"
-        },
-        {
-            "id": 66,
-            "nom": "Roquette",
-            "categorie": "munition",
-            "description": "Munition de base du lance-roquettes. Elle inflige de lourds dégâts, notamment aux structures et aux véhicules.",
-            "img": "img/weapon/munition/roquette.png"
-        },
-        {
-            "id": 67,
-            "nom": "Roquette haute vitesse",
-            "categorie": "munition",
-            "description": "Roquette plus rapide avec une trajectoire plus tendue. Elle convient mieux aux cibles éloignées.",
-            "img": "img/weapon/munition/roquette-haute-vitesse.png"
-        },
-        {
-            "id": 68,
-            "nom": "Roquette incendiaire",
-            "categorie": "munition",
-            "description": "Roquette qui provoque un incendie à l'impact. Elle est utile pour enflammer une zone.",
-            "img": "img/weapon/munition/roquette-incendiaire.png"
-        },
-        {
-            "id": 69,
-            "nom": "Missile traqueur",
-            "categorie": "munition",
-            "description": "Missile qui suis sa cible jusqu'à impact. Utile contre les hélicoptères.",
-            "img": "img/weapon/munition/missile.png"
-        },
-        {
-            "id": 70,
-            "nom": "Grenade explosive 40mm",
-            "categorie": "munition",
-            "description": "Grenade explosive pour le lance-grenades multiple. Elle inflige des dégâts de zone à l'impact.",
-            "img": "img/weapon/munition/grenade-explosive-40mm.png"
-        },
-        {
-            "id": 71,
-            "nom": "Cartouche 40mm",
-            "categorie": "munition",
-            "description": "Cartouche de fusil à pompe de 40mm pour le lance-grenades. Elle projette plusieurs plombs à courte distance.",
-            "img": "img/weapon/munition/cartouche-40mm.png"
-        },
-        {
-            "id": 72,
-            "nom": "Grenade fumigène 40mm",
-            "categorie": "munition",
-            "description": "Grenade fumigène pour le lance-grenades multiple. Elle crée un écran de fumée pour couvrir un déplacement.",
-            "img": "img/weapon/munition/grenade-fumigene-40mm.png"
-        },
-        {
-            "id": 73,
-            "nom": "Carburant bas de gamme",
-            "categorie": "munition",
-            "description": "Carburant utilisé par le lance-flammes. Il alimente le jet de flammes à courte portée.",
-            "img": "img/weapon/munition/carburant-bas-de-gamme.png"
+            "id": 3,
+            "nom": "Établi niveau 3",
+            "categorie": "etabli",
+            "description": "Établi de dernier niveau pour fabriquer l'équipement le plus puissant du jeu.",
+            "img": "img/items/workbench/workbench3.png"
         }
     ]
 }
