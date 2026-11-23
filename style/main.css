@@ -408,18 +408,22 @@ select.toolbar-field {
     .items-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .builds .item-thumb { aspect-ratio: 16 / 9; }
 }
 
-@media (prefers-reduced-motion: reduce) {
-    .item-card,
-    .tile,
-    .nav-link,
-    .toolbar-field {
-        transition: none;
-    }
+.items-grid.builds { 
+    grid-template-columns: 1fr; 
+}
 
-    .item-card:hover,
-    .tile:hover {
-        transform: none;
-    }
+.builds .item-thumb { 
+    aspect-ratio: 21 / 7; 
+}
+
+.builds .item-img { 
+    padding: 0; object-fit: cover; 
+}
+
+.builds .item-name { 
+    font-size: 1.5rem; 
 }

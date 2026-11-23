@@ -1,10 +1,6 @@
 <?php
 $data = json_decode(file_get_contents("json/data.json"), true);
-$weapon = $data["weapon"];
-
-// Catégories uniques pour le filtre (générées depuis le JSON)
-$categories = array_values(array_unique(array_column($weapon, "categorie")));
-sort($categories);
+$builds = $data["build"];
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +8,7 @@ sort($categories);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rust Wiki : tous les items du jeu Rust">
+    <meta name="description" content="Rust Wiki : tous les builds du jeu Rust">
     <title>Builds - Rust Wiki</title>
 
     <link rel="stylesheet" href="style/main.css">
@@ -33,51 +29,32 @@ sort($categories);
 
     <main class="items-page">
 
-        <section class="featured" aria-label="Objets en vedette">
-            <a href="#" class="featured-tile featured-1">Objet en vedette</a>
-            <a href="#" class="featured-tile featured-2">Objet en vedette</a>
-            <a href="#" class="featured-tile featured-3">Objet en vedette</a>
-            <a href="#" class="featured-tile featured-4">Nouvel item</a>
-            <a href="#" class="featured-tile featured-5">Nouvel item</a>
-            <a href="#" class="featured-tile featured-6">Nouvel item</a>
-            <a href="#" class="featured-tile featured-7">Objet en vedette</a>
-        </section>
-
         <div class="toolbar">
             <input
                 type="search"
                 id="search"
                 class="toolbar-field"
-                placeholder="Chercher un item..."
-                aria-label="Chercher un item">
-
-            <select id="categorie" class="toolbar-field" aria-label="Filtrer par catégorie">
-                <option value="toutes">Toutes les catégories</option>
-                <?php foreach ($categories as $c): ?>
-                    <option value="<?= htmlspecialchars($c) ?>"><?= htmlspecialchars($c) ?></option>
-                <?php endforeach; ?>
-            </select>
+                placeholder="Chercher un build (nom, 4x4, bunker...)"
+                aria-label="Chercher un build">
         </div>
 
-        <div class="items-grid">
-            <?php foreach ($weapon as $w): ?>
+        <div class="items-grid builds">
+            <?php foreach ($builds as $b): ?>
 
-                <article class="item-card arme"
-                    data-nom="<?= htmlspecialchars(strtolower($w["nom"])) ?>"
-                    data-categorie="<?= htmlspecialchars($w["categorie"]) ?>">
+                <article class="item-card build"
+                    data-nom="<?= htmlspecialchars(strtolower($b["nom"] . " " . $b["tag"])) ?>">
 
-                    <a href="arme-detail.php?id=<?= urlencode($w["id"]) ?>" class="item-thumb">
+                    <a href="build-detail.php?id=<?= urlencode($b["id"]) ?>" class="item-thumb">
                         <img
-                            src="<?= htmlspecialchars($w["img"]) ?>"
+                            src="<?= htmlspecialchars($b["img"]) ?>"
                             class="item-img"
-                            alt="<?= htmlspecialchars($w["nom"]) ?>"
+                            alt="<?= htmlspecialchars($b["nom"]) ?>"
                             loading="lazy">
                     </a>
 
                     <div class="item-body">
-                        <h3 class="item-name"><?= htmlspecialchars($w["nom"]) ?></h3>
-                        <p class="item-category"><?= htmlspecialchars($w["categorie"]) ?></p>
-                        <p class="item-desc"><?= htmlspecialchars($w["description"]) ?></p>
+                        <h3 class="item-name"><?= htmlspecialchars(ucwords($b["nom"])) ?></h3>
+                        <p class="item-category"><?= htmlspecialchars($b["tag"]) ?></p>
                     </div>
 
                 </article>
@@ -85,7 +62,7 @@ sort($categories);
             <?php endforeach; ?>
         </div>
 
-        <p class="no-result" id="no-result">Aucun item trouvé. Essaie un autre mot.</p>
+        <p class="no-result" id="no-result">Aucun build trouvé. Essaie un autre mot.</p>
 
     </main>
 
@@ -93,30 +70,21 @@ sort($categories);
 
     <script>
         const recherche = document.getElementById("search");
-        const categorie = document.getElementById("categorie");
-        const armes = document.querySelectorAll(".arme");
+        const builds = document.querySelectorAll(".build");
         const aucunResultat = document.getElementById("no-result");
 
-        function filtrerArmes() {
+        recherche.addEventListener("input", () => {
             const texte = recherche.value.toLowerCase().trim();
-            const filtre = categorie.value;
             let visibles = 0;
 
-            armes.forEach(arme => {
-                const correspondNom = arme.dataset.nom.includes(texte);
-                const correspondCategorie =
-                    filtre === "toutes" || arme.dataset.categorie === filtre;
-                const afficher = correspondNom && correspondCategorie;
-
-                arme.style.display = afficher ? "" : "none";
+            builds.forEach(build => {
+                const afficher = build.dataset.nom.includes(texte);
+                build.style.display = afficher ? "" : "none";
                 if (afficher) visibles++;
             });
 
             aucunResultat.classList.toggle("visible", visibles === 0);
-        }
-
-        recherche.addEventListener("input", filtrerArmes);
-        categorie.addEventListener("change", filtrerArmes);
+        });
     </script>
 </body>
 </html>
