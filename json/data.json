@@ -168,5 +168,79 @@
             "description": "Pantalon résistant pour avoir les jambes couvertes pendant l'aventure.",
             "img": "img/items/attire/pants.png"
         }
+    ],
+    "build": [
+        {
+            "id" : 1,
+            "nom" : "the brand",
+            "tag" : "solo/duo shiled wall",
+            "img" : "img/base/starter/the-brand.jpg"
+        },       
+        {
+            "id" : 2,
+            "nom" : "the clarity",
+            "tag" : "roof bunker opencore",
+            "img" : "img/base/starter/the-clarity.jpg"
+        },
+        {
+            "id" : 3,
+            "nom" : "the ingot",
+            "tag" : "3 bunker opencore",
+            "img" : "img/base/starter/the-ingot.jpg"
+        },
+        {
+            "id" : 4,
+            "nom" : "the jackal",
+            "tag" : "1x2 core",
+            "img" : "img/base/starter/the-jackal.jpg"
+        },
+        {
+            "id" : 5,
+            "nom" : "the limit",
+            "tag" : "core bunkers online tank",
+            "img" : "img/base/starter/the-limit.jpg"
+        },
+        {
+            "id" : 6,
+            "nom" : "the lockbox",
+            "tag" : "bunker opencore",
+            "img" : "img/base/starter/the-lockbox.jpg"
+        },
+        {
+            "id" : 7,
+            "nom" : "the omni",
+            "tag" : "no definition yet",
+            "img" : "img/base/starter/the-omni.jpg"
+        },
+        {
+            "id" : 8,
+            "nom" : "the omron",
+            "tag" : "4x4",
+            "img" : "img/base/starter/the-omron.jpg"
+        },
+        {
+            "id" : 9,
+            "nom" : "the onyx",
+            "tag" : "2x2",
+            "img" : "img/base/starter/the-onyx.jpg"
+        },
+        {
+            "id" : 10,
+            "nom" : "the relic",
+            "tag" : "tc hiding tech",
+            "img" : "img/base/starter/the-relic.jpg"
+        },
+        {
+            "id" : 11,
+            "nom" : "the sentinel",
+            "tag" : "4x4 opencors peekdown",
+            "img" : "img/base/starter/the-sentinel.jpg"
+        },
+                {
+            "id" : 12,
+            "nom" : "the spinky",
+            "tag" : "core bunker opencore",
+            "img" : "img/base/starter/the-spinky.jpg"
+        }
     ]
 }
