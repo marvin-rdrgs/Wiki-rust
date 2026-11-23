@@ -17,7 +17,7 @@
 
         <nav class="nav">
             <a href="items.php" class="nav-link">Items</a>
-            <a href="#" class="nav-link">Builds</a>
+            <a href="build.php" class="nav-link">Builds</a>
             <a href="#" class="nav-link">Calculator</a>
         </nav>
     </header>
