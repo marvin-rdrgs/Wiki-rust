@@ -107,9 +107,9 @@
         },
         {
             "id": 16,
-            "nom": "Motoneige",
+            "nom": "Propulseur",
             "categorie": "vehicule",
-            "description": "Véhicule conçu pour filer sur la neige et la glace sans se faire ralentir.",
+            "description": "Véhicule conçu pour propuler un nageur sous l'eau",
             "img": "img/items/vehicle/skidoo.png"
         },
         {
@@ -167,13 +167,6 @@
             "categorie": "vetement",
             "description": "Pantalon résistant pour avoir les jambes couvertes pendant l'aventure.",
             "img": "img/items/attire/pants.png"
-        },
-        {
-            "id": 25,
-            "nom": "Parachute",
-            "categorie": "vetement",
-            "description": "Permet de se jeter dans le vide et d'atterrir en un seul morceau.",
-            "img": "img/items/attire/parachute.png"
         }
     ]
 }
